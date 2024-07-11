@@ -1,4 +1,4 @@
-class Refregerator{
+class Heater{
 
 
  static boolean isConnected = false;
@@ -8,11 +8,11 @@ class Refregerator{
  
   if(isConnected == false){
   isConnected = true;
-  System.out.println("Refregerator is turned on....");
+  System.out.println("Heater is turned on....");
   
 	 } else if(isConnected == true){
 	 isConnected = false;
-	 System.out.println("Refregerator is turned off...");
+	 System.out.println("Heater is turned off...");
 	 }
  System.out.println("end of onOrOff");
   return isConnected;

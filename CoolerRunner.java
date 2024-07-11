@@ -1,13 +1,14 @@
-class CoolerRunner{
- public static void main(String[]lg){
- 
-    System.out.println("Main started");
+class SpeakerRunner{
+ public static void main(String[]jbl){
+  System.out.println("Main started");
 	
-    Cooler.turnOn();
-	Cooler.turnOff();
+    boolean connect = Speaker.onOrOff();
+	System.out.println("is Speaker is connected : " + connect);
+	
+	connect =  Speaker.onOrOff();
+	System.out.println("is Speaker is connected : " + connect);
 	
     System.out.println("Main Ended");
 
  } 
-
 }
