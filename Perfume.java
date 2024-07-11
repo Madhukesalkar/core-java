@@ -1,21 +1,12 @@
 class Perfume{
-    static String itemName = "Park Avenue" ;
-	static String form = "Spray" ;
-	static String volume  = "100 Millilitres" ;
-	static String scent = "Euphoria" ;
-	static String specialFeature = "Long Lasting" ;
-	 
-public static void main(String[] smell){
+public static void main(String[] plam){
 
-     
-	 
-	 System.out.println("Name of the item is " + itemName ) ;
-	 System.out.println("Form of the Item is " + form ) ;
-	 System.out.println(" Volume of the Item is " + volume ) ;
-	 System.out.println(" Scent of the Item is " + scent ) ;
-	 System.out.println(" Special Feature of the Item is " + specialFeature ) ;
-
-
+//display any messages
+System.out.println("Quantity - Deluxe 60 ML , Cool 30 ML");
+System.out.println("Ideal For: MEN & WOMEN");
+System.out.println("Resign Perfume offers 12 hrs back-up of fragrance");
+System.out.println("Skin Friendly");
+System.out.println("Resign beats the daily odds of sweat, and body odour throughout the day, making you feel fresh and bringing the spotlight on you");
 
 
 

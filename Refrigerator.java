@@ -1,27 +1,31 @@
 class Refrigerator{
-    static String brandName = "Samsung" ;
-	static String dimensions = "66.9D x 58.5W x 147.5H Centimeters" ; 
-	static String capacity = "236 litres" ;
-	static String configuration = "Freezer-on-Top" ;
-	static int energyStar = 3 ;
-	
-public static void main(String[] cold){
-	
-	
-	System.out.println("The Name of the Brand is " + brandName );
-	System.out.println("The Product Dimension is " + dimensions  );
-	System.out.println("The Product Capacity is " + capacity );
-	System.out.println("The Product Configuration is " + configuration ) ;
-	System.out.println("Energy Star of the Product is " + energyStar ) ;
-	
-	
-	
-	
-	
-	
-	
-	
+public static void main(String[] samsung){
+
+//display any messages
+System.out.println("Frost Free Refrigerator: Auto Defrost with powerful cooling and long lasting freshness and performance");
+System.out.println("Capacity 236 liters: Suitable for families with 2 to 3 members");
+System.out.println("Energy Rating : 3 Star Energy Efficiency");
+System.out.println("Manufacturer Warranty : The product comes with a 1 year comprehensive warranty and a 20 years warranty on the digital inverter compressor");
+System.out.println("Digital Inverter Compressor provides greater energy efficiency, less noise and long-lasting performance while consuming 50% less power, backed up by 20 year warranty");
+System.out.println("Interior Description : Fresh Food Capacity : 183 Ltr | Freezer Capacity : 53 Ltr | Total no. of compartments : 2 | Shelves : 3 | Vegetable Drawers : 1 | Shelf Type : Toughened Glass Shelves | Anti Bacterial Gasket |");
+System.out.println("Special Features : Coolpack | Fresh room | Easy Slide Shelf | All Round Cooling");
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
 
 
 

@@ -1,22 +1,23 @@
 class Mouse{
-    static String brandName = "Logitech" ;
-	static String color = "Graphite" ;
-	static String connectivityTechnology = "Bluetooth" ;
-	static String specialFeature = "Portable" ;
-	static String movementDetectionTechnology = "Optical" ;	 
-	 
-public static void main(String[]Logitech ){
-     System.out.println("main started");
-    
-	 
-	 System.out.println("Name Of The Brand " + brandName);
-	 System.out.println("Name Of The Brand " + color);
-	 System.out.println("Connectivity Technology of the Brand " + connectivityTechnology);
-	 System.out.println("Special Feature Of The Brand " + specialFeature);
-	 System.out.println("Movement Detection Technology Of The Brand " + movementDetectionTechnology);
-	 System.out.println("main ended");
-	 
+public static void main(String[]generic){
+
+
+
+//display any messages
+System.out.println("Classic black polyester mouse pad that complements any desktop or workstation");
+System.out.println("Smooth surface provides precise mouse tracking for improved accuracy and control");
+System.out.println("Non-slip rubber base prevents slipping and sliding during intense gaming or work sessions");
+System.out.println("Compatible with various mice, making it suitable for gaming, work, and everyday use");
+System.out.println("Easy to clean and maintain, simply wipe with a Mice damp cloth to remove dirt and debris");
+
+
 }
+
+
+
+
+
+
 
 
 }

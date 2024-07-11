@@ -1,21 +1,18 @@
 class Shoes{
-    static String brandName = "comet" ;
-    static int size = 5 ;
-	static String color = "Black" ;
-	static int price = 500 ;
-	static int brandId = 123456 ;
-	static String type = "casual" ;
-	 
-  public static void main(String bata[]){
-    
-	 
-	 System.out.println("The Brand Name is " + brandName);
-	 System.out.println("The Brand Size is " + size);
-	 System.out.println("The Brand Color is " + color);
-	 System.out.println("The Brand Price is " + price);
-	 System.out.println("The BrandId is " + brandId);
-     System.out.println("The Brand Type is " + type);
-  }
-  
-  
+public static void main(String[] bata){
+
+
+//display any messages
+System.out.println("Shoes make people feel a certain way");
+System.out.println("Wearing good shoes can help to feel best and prevent injuries");
+System.out.println("shoes are as much about fashion as function");
+System.out.println("Shoes provides important structural support, comfort, and protection");
+}
+
+
+
+
+
+
+
 }

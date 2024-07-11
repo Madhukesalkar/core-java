@@ -1,22 +1,16 @@
 class HandBag{
-    static String brandName = "Exotic" ;
-    static String closureType = "Zipper" ;
-	static String outerMaterial = "Polyurethane" ;
-    static String style = "Utility" ;	
-    static int pockets = 4 ; 
+public static void main(String[] tote){
 
-public static void main(String[] women){
 
-    
-     System.out.println("The Brand Name is " + brandName ) ;
-	 System.out.println("The Brand Closure Type is " + closureType ) ;
-	 System.out.println("Type of the Outer Material is " + outerMaterial ) ;
-	 System.out.println("Style of the Brand is " + style ) ;
-	 System.out.println("Number of the Pockets is " + pockets ) ;
+//display any messages
+System.out.println("Material: Pu, Artificial leather is used to make this ladies; fashion bag. The colour is vibrant and sparkly, and it feels cosy. 3 Main compartments and 1 inner pocekt. Fashion Handbags Tote Purse Shoulder Bag are stylish, innovativ, and lovely. ideal for carrying along and touring.");
+System.out.println("Bag size: (13 inches lenght, 5 inches width, 9.9 inches height) It looks like a medium sized square cushion. It can hold a small laptop, notebooks, cosmetics, towels and other essentials.");
+System.out.println("Beautiful Croco Print Fabric Design Shoulder Bag For Every Style");
+System.out.println("1 Inner Pocket With Zip Closure");
+
 
 
 }
-
 
 
 
