@@ -1,12 +1,13 @@
 class SmartPhone{
+    static String brandName = "2&CO" ;
+	static String operatingSystem = "Android 14" ;
+    static String cpuModel = "MediaTek Helio" ;
+    static String cpuSpeed = "3.1 GHz" ;		
+    static int ramMemory = 8 ;
+	  
 public static void main(String[] vivo){
 
-      String brandName = "2&CO" ;
-	  String operatingSystem = "Android 14" ;
-      String cpuModel = "MediaTek Helio" ;
-      String cpuSpeed = "3.1 GHz" ;		
-      int ramMemory = 8 ;
-	  
+    
 	  
 	  
       System.out.println("Name of the Brand is " + brandName ) ;

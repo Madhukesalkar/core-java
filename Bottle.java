@@ -1,11 +1,13 @@
 class Bottle{
+    static String brandName = "Milton" ;
+	static String material = "Stainless Steel" ;
+	static String type = "standard " ;
+	static String color = "Light Pink" ;
+	static int capacity = 1000 ; 
+	
 public static void main(String[] steel){
 
-      String brandName = "Milton" ;
-	  String material = "Stainless Steel" ;
-	  String type = "standard " ;
-	  String color = "Light Pink" ;
-	  int capacity = 1000 ;
+      
 	  
 	  
 	  System.out.println("The Brand Name is " + brandName );
@@ -13,10 +15,5 @@ public static void main(String[] steel){
 	  System.out.println("The Type of the Brand is" + type );
 	  System.out.println("The Brand Color is " + color);
 	  System.out.println("The Capacity of the Brand is " + capacity );
-
-
 }
-
-
-
 }

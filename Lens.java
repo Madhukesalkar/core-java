@@ -1,14 +1,15 @@
 class Lens{
+    static String brandName = "Lenskart";
+	static String placeOfOrigin = "China" ;
+	static int itemWeight = 10 ;
+	static String manufacturer = "Baofeng Framekart Technology Limited, Baofeng Framekart Technology Limited" ;
+	static String packer = "Lenskart Solutions Private Ltd" ;
+	static int itemDimensions = 54 ;
+	static String includedComponents = "Case,Cleaning Cloth" ;
+	static int netQuantity = 100 ;
 public static void main(String[] lenskart){
 
-        String brandName = "Lenskart";
-		String placeOfOrigin = "China" ;
-		int itemWeight = 10 ;
-		String manufacturer = "Baofeng Framekart Technology Limited, Baofeng Framekart Technology Limited" ;
-		String packer = "Lenskart Solutions Private Ltd" ;
-		int itemDimensions = 54 ;
-		String includedComponents = "Case,Cleaning Cloth" ;
-		int netQuantity = 100 ;
+    
 		
 		System.out.println("Name of the Brand is " + brandName ) ;
 		System.out.println("Place of the Origin is " + placeOfOrigin ) ;

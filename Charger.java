@@ -1,14 +1,16 @@
 class Charger{
+
+    static String brandName = "	Ambrane" ;
+	static String connectivityTechnology = "USB, Type-C port" ;
+	static String connectorType = "USB" ;
+	static int usbPorts = 2 ;
+	static int inputVoltage=  230 ;
+	static String compatibleDevices = "iPhone, Smartphones, Tablets, Earbuds, Speakers & other devices" ;
+	static String color = "White" ;
+	   
 public static void main(String [] charging){
 
-       String brandName = "	Ambrane" ;
-	   String connectivityTechnology = "USB, Type-C port" ;
-	   String connectorType = "USB" ;
-	   int usbPorts = 2 ;
-	   int inputVoltage=  230 ;
-	   String compatibleDevices = "iPhone, Smartphones, Tablets, Earbuds, Speakers & other devices" ;
-	   String color = "White" ;
-	   
+       
 	   
 	   System.out.println("Name of the Brand is " + brandName ) ;
 	   System.out.println("Connectivity Technology of the Brand is "+ connectivityTechnology ) ;
@@ -17,15 +19,5 @@ public static void main(String [] charging){
 	   System.out.println("Input Voltage of the Brand is " + inputVoltage ) ;
 	   System.out.println("Compatible Devices used in this Brand is " + compatibleDevices ) ;
 	   System.out.println("Color of the Brand is " + color ) ;
-
-
-
 }
-
-
-
-
-
-
-
-}
+} 

@@ -1,12 +1,13 @@
 class Mouse{
+    static String brandName = "Logitech" ;
+	static String color = "Graphite" ;
+	static String connectivityTechnology = "Bluetooth" ;
+	static String specialFeature = "Portable" ;
+	static String movementDetectionTechnology = "Optical" ;	 
+	 
 public static void main(String[]Logitech ){
      System.out.println("main started");
-     String brandName = "Logitech" ;
-	 String color = "Graphite" ;
-	 String connectivityTechnology = "Bluetooth" ;
-	 String specialFeature = "Portable" ;
-	 String movementDetectionTechnology = "Optical" ;	 
-	 
+    
 	 
 	 System.out.println("Name Of The Brand " + brandName);
 	 System.out.println("Name Of The Brand " + color);

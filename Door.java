@@ -1,12 +1,16 @@
 class Door{
+    static String productName = "Solimo" ;
+	static String color = "Walnut" ;
+	static String roomType = "Bedroom" ;
+	static int weight= 95 ;
+	static String mountingType = "Floor Mount" ;
+	static int price = 22000 ;
+
+
+
 public static void main(String[] home){
 
-    String productName = "Solimo" ;
-	String color = "Walnut" ;
-	String roomType = "Bedroom" ;
-	int weight= 95 ;
-	String mountingType = "Floor Mount" ;
-	int price = 22000 ;
+    
 
 
      System.out.println("The Product Name is " + productName ) ;

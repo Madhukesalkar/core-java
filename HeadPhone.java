@@ -1,12 +1,13 @@
 class HeadPhone{
+    static String productName = "boAt Rockerz" ;
+	static String color = "Active Black" ;
+	static String earPlacement = "In Ear" ;
+	static String headphonesJack = "USB" ;
+	static int price = 1000 ;
 public static void main(String [] hearing){
 
 
-    String productName = "boAt Rockerz" ;
-	String color = "Active Black" ;
-	String earPlacement = "In Ear" ;
-	String headphonesJack = "USB" ;
-	int price = 1000 ;
+    
 
      System.out.println("Name of the Product is" + productName ) ;
 	 System.out.println("Color of the Product is " + color ) ;

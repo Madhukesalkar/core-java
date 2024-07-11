@@ -1,13 +1,14 @@
 class Slipper{
+    static String brandName = "Doctor" ;
+	static String Type = "Canvas" ;
+	static String closureType = "Slip On" ;
+	static String waterResistanceLevel = "Water" ;
+	static String strapType= "Ankle" ;
+	static String countryOfOrigin = "India" ;
+	 
 public static void main(String[] smooth){
 
-     String brandName = "Doctor" ;
-	 String Type = "Canvas" ;
-	 String closureType = "Slip On" ;
-	 String waterResistanceLevel = "Water" ;
-	 String strapType= "Ankle" ;
-	 String countryOfOrigin = "India" ;
-	 
+    
 	 
 	 
 	 System.out.println("The Brand Name is " + brandName ) ;

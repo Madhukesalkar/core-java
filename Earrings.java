@@ -1,13 +1,15 @@
 class Earrings{
+    static String itemName = "silver Earrings" ;
+	static String claspType = "PushBack" ;
+	static String materialType = "Sterling Silver" ;
+	static String metalType = "Sterling Silver" ;
+	static String gemType = "Zircon" ;
+	
+
 public static void main(String [] ear){
 
 
-    String itemName = "silver Earrings" ;
-	String claspType = "PushBack" ;
-	String materialType = "Sterling Silver" ;
-	String metalType = "Sterling Silver" ;
-	String gemType = "Zircon" ;
-	
+    
 	
 	
 	

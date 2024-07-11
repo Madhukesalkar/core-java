@@ -1,14 +1,15 @@
 class Pillow{
+    static String productName = "The White Willow" ;
+	static String specialFeature = "100% Filler Free Foam, Machine Washable Cover, Eco-friendly, Adjustable, Removable" ;
+	static String color = "Multi" ;
+	static String size = "Regular" ;
+	static String shape = "Rectangular" ;
+	static String material = "Memory Foam" ;
+	 
 public static void main(String[] soft){
 
 
-     String productName = "The White Willow" ;
-	 String specialFeature = "100% Filler Free Foam, Machine Washable Cover, Eco-friendly, Adjustable, Removable" ;
-	 String color = "Multi" ;
-	 String size = "Regular" ;
-	 String shape = "Rectangular" ;
-	 String material = "Memory Foam" ;
-	 
+    
 	 
 	 
 	 System.out.println("The Product Name is " + productName ) ;

@@ -1,12 +1,13 @@
 class Mascara{
+    static String itemName = "Lakme" ;
+	static String color = "Black" ;
+	static String benefits = "Lifts,Volume,Volumizing" ;
+	static String form = "Liquid" ;
+	static int Items = 1 ;
+	static String netQuantity = "8.5 millilitre" ;
 public static void main(String [] eyeconic){
 
-     String itemName = "Lakme" ;
-	 String color = "Black" ;
-	 String benefits = "Lifts,Volume,Volumizing" ;
-	 String form = "Liquid" ;
-	 int Items = 1 ;
-	 String netQuantity = "8.5 millilitre" ;
+    
 	 
 	 
 	 System.out.println("Name of the Item is " + itemName ) ;

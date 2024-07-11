@@ -1,12 +1,13 @@
 class Watch{
+    static String productName = "Noise Pulse" ;
+	static String operatingSystem  = "Android, Ios" ;
+	static String specialFeature   = "Heart Rate Tracking, Sleep Monitor, 150+ Cloud Watch Face, Notifications" ;
+    static int memoryStorage  = 16 ;
+	static String connectivityTechnology  = "Bluetooth" ;
+	  
 public static void main(String [] boult){
 
-      String productName = "Noise Pulse" ;
-	  String operatingSystem  = "Android, Ios" ;
-	  String specialFeature   = "Heart Rate Tracking, Sleep Monitor, 150+ Cloud Watch Face, Notifications" ;
-      int memoryStorage  = 16 ;
-	  String connectivityTechnology  = "Bluetooth" ;
-	  
+    
 	  
 	  System.out.println("The Product Name is " + productName );
 	  System.out.println("Operating System of the Product is  " + operatingSystem );

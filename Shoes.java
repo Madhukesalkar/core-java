@@ -1,12 +1,13 @@
 class Shoes{
-  public static void main(String bata[]){
-    String brandName = "comet" ;
-     int size = 5 ;
-	 String color = "Black" ;
-	 int price = 500 ;
-	 int brandId = 123456 ;
-	 String type = "casual" ;
+    static String brandName = "comet" ;
+    static int size = 5 ;
+	static String color = "Black" ;
+	static int price = 500 ;
+	static int brandId = 123456 ;
+	static String type = "casual" ;
 	 
+  public static void main(String bata[]){
+    
 	 
 	 System.out.println("The Brand Name is " + brandName);
 	 System.out.println("The Brand Size is " + size);

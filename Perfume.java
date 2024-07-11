@@ -1,12 +1,13 @@
 class Perfume{
+    static String itemName = "Park Avenue" ;
+	static String form = "Spray" ;
+	static String volume  = "100 Millilitres" ;
+	static String scent = "Euphoria" ;
+	static String specialFeature = "Long Lasting" ;
+	 
 public static void main(String[] smell){
 
-     String itemName = "Park Avenue" ;
-	 String form = "Spray" ;
-	 String volume  = "100 Millilitres" ;
-	 String scent = "Euphoria" ;
-	 String specialFeature = "Long Lasting" ;
-	 
+     
 	 
 	 System.out.println("Name of the item is " + itemName ) ;
 	 System.out.println("Form of the Item is " + form ) ;

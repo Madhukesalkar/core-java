@@ -1,13 +1,18 @@
 class FacialWash{
+    static String itemName = "simple" ;
+	static String scent = "Unscented" ;
+    static String skinType = "All" ;
+	static String benefits = "Moisturizing" ;
+    static String form = "Gel" ;  
+    static int packageQuantity = 1 ;
+
+
+
+
+
 public static void main(String [] himalaya){
 
-       String itemName = "simple" ;
-	   String scent = "Unscented" ;
-       String skinType = "All" ;
-	   String benefits = "Moisturizing" ;
-       String form = "Gel" ;  
-       int packageQuantity = 1 ;
-
+       
        System.out.println("Name of the Item is " + itemName ) ;
        System.out.println("The Product Scent is " + scent ) ;
        System.out.println("Type of the Skin is " + skinType ) ;	  

@@ -1,13 +1,15 @@
 class Fans{
+    static String productName  = "Atomberg" ;
+    static String color = "Midnight Black" ;
+	static String design = "Ceiling Fan" ;
+	static String powerSource = "Corded Electric" ;
+	static String style= "Renesa" ;
+	static int wattage = 35 ;
+
 public static void main(String[] cool){
 
 
-      String productName  = "Atomberg" ;
-      String color = "Midnight Black" ;
-	  String design = "Ceiling Fan" ;
-	  String powerSource = "Corded Electric" ;
-	  String style= "Renesa" ;
-	  int wattage = 35 ;
+      
 	  
 	  System.out.println("Name of the Product is " + productName ) ;
 	  System.out.println("color of the Product is " + color ) ;

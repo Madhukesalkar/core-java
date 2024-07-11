@@ -1,13 +1,17 @@
 class Bed{
+    static String itemName = "Amazon";
+	static String specialFeature= "Durability,Resistant" ;
+	static String color = "Walnut" ;
+	static String weight = "134000 Gram" ;
+	static String material = "Engineered Wood" ;
+	static String includedComponents	 = "Panels,Screw,Assembly Instructions" ;
+
+
+
+
 public static void main(String[] soft){
 
-     String itemName = "Amazon";
-	 String specialFeature= "Durability,Resistant" ;
-	 String color = "Walnut" ;
-	 String weight = "134000 Gram" ;
-	 String material = "Engineered Wood" ;
-	 String includedComponents	 = "Panels,Screw,Assembly Instructions" ;
-	 
+     
 	 
 	 
 	 System.out.println("The Item Name is " + itemName ) ;
