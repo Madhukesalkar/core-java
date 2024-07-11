@@ -1,14 +1,40 @@
 class HeaterRunner{
- public static void main(String[]jbl){
-  System.out.println("Main started");
 	
-    boolean connect = Heater.onOrOff();
-	System.out.println("is Heater is connected : " + connect);
+	static boolean connect;
+	public static void main(String[] lg){
 	
-	connect =  Heater.onOrOff();
-	System.out.println("is Heater is connected : " + connect);
+	System.out.println("main started");
 	
-    System.out.println("Main Ended");
-
- } 
+	connect = Heater.onOrOff();
+	System.out.println("is Heater connected :"+connect);
+	Heater.increaseTemprature();
+	
+	connect = Heater.onOrOff();
+	System.out.println("is heater connected :"+connect);
+	Heater.increaseTemprature();
+	Heater.decreaseTemprature();
+    connect = Heater.onOrOff();
+		Heater.increaseTemprature();
+		Heater.increaseTemprature();
+		Heater.increaseTemprature();
+		Heater.increaseTemprature();
+		Heater.increaseTemprature();
+		Heater.increaseTemprature();
+		Heater.increaseTemprature();
+			
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+		Heater.decreaseTemprature();
+	System.out.println("is heater connected :"+connect);
+		connect = Heater.onOrOff();
+	System.out.println("is heater connected :"+connect);
+	
+System.out.println("main ended");	
+	}
 }

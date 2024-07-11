@@ -1,18 +1,18 @@
-class Television{
+class Speaker{
 
 	static boolean isConnected 	= false;
-	static int     maxVolume   	= 100;
+	static int     maxVolume   	= 7;
 	static int    currentVolume = 0;
 	static int     minVolume    = 0;
 	 
 	public static boolean onOrOff(){
 	
 	if(!isConnected) isConnected=true;
-		//System.out.println("Television has turned on..");
+		//System.out.println("Speaker has turned on..");
 	
 	
 	else  isConnected=false;
-		//System.out.println("Television has turned off..");
+		//System.out.println("Speaker has turned off..");
 	
 	
 	return isConnected;
@@ -30,7 +30,7 @@ class Television{
 			}
 		}
 		else{
-			System.out.println("please turn on the Television");
+			System.out.println("please turn on the speaker");
 		}
 		System.out.println("increaseVolume ended");
 	return ;	
@@ -48,7 +48,7 @@ class Television{
 			}
 		}
 		else{
-			System.out.println("please turn on the Television");
+			System.out.println("please turn on the speaker");
 		}
 		System.out.println("decreaseVolume ended");
 	return ;	

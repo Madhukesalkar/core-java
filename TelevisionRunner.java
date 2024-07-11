@@ -1,14 +1,31 @@
 class TelevisionRunner{
- public static void main(String[]jbl){
-  System.out.println("Main started");
 	
-    boolean connect = Television.onOrOff();
-	System.out.println("is Television is connected : " + connect);
+	static boolean connect;
+	public static void main(String[] jbl){
 	
-	connect =  Television.onOrOff();
-	System.out.println("is Television is connected : " + connect);
+	System.out.println("main started");
 	
-    System.out.println("Main Ended");
-
- } 
+	connect = Television.onOrOff();
+	System.out.println("is Television connected :"+connect);
+	    Television.increaseVolume();
+		Television.increaseVolume();
+		Television.increaseVolume();
+		Television.increaseVolume();
+		Television.increaseVolume();
+		Television.increaseVolume();
+		Television.increaseVolume();
+		Television.increaseVolume();
+			
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+		Television.decreaseVolume();
+	
+System.out.println("main ended");	
+	}
 }
